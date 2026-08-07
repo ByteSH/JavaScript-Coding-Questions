@@ -40,7 +40,7 @@ Every contribution counts, no matter how small. Join me on this exciting journey
  
 ## 💻 Questions
  
-**1. Find the element occurrence in the given array using a `for...of` loop**
+**1. Find the element occurrence in the given array using a loop**
  
 ```js
 const arr = [1, 2, 3, 4, 5, 6, 7, 3, 4, 6, 3, 3, 4, 6, 3, 4];
@@ -55,7 +55,7 @@ console.log(res);
 
 ---
  
-**2. Counting occurrences using `reduce`**
+**2. Counting elements of array occurrences using `reduce`**
  
 ```js
 const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
@@ -115,7 +115,14 @@ digits.forEach(d => console.log(d));
   
 ---
  
-**5. Important Array functions**
+**5. Important Array functions.**
+add element at end,at start.
+remove elements from start, from end.
+create new array having elements from 0 to 2.
+find elements included.
+find index of element.
+ascending and descending sorting.
+use map, filter, reduce, find, forEach with index and element.
  
 ```js
 let products = ["Laptop", "Mouse", "Keyboard", "Monitor"];

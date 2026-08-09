@@ -267,26 +267,10 @@ console.log(`"${char1}" is uppercase: ${isUpperCase(char1)}`);
 console.log(`"${char2}" is lowercase: ${isLowerCase(char2)}`);
 console.log(`"${char3}" is a number: ${isNumber(char3)}`);
 ```
-  
+    
 ---
  
-**12. Find Max values and keys from an object**
- 
-```js
-let elements = [1, 2, 2, 3, 4, 5, 2];
-let counts = {};
- 
-for (let element of elements) {
-    counts[element] = (counts[element] || 0) + 1;
-}
- 
-console.log(Math.max(...Object.values(counts)));
-console.log(Math.max(...Object.keys(counts)));
-```
-  
----
- 
-**13. Recursion — Find Factorial of a number**
+**12. Recursion — Find Factorial of a number**
  
 ```js
 const factorial = (n) => {
@@ -303,7 +287,7 @@ console.log(
   
 ---
  
-**14. Fibonacci number**
+**13. Fibonacci number**
  
 ```js
 function getFibonacci(n) {
@@ -321,7 +305,7 @@ console.log(getFibonacci(10));
   
 ---
  
-**15. Palindrome, Anagram & Armstrong Number**
+**14. Palindrome, Anagram & Armstrong Number**
  
 ```js
 function isPalindrome(str) {
@@ -354,7 +338,7 @@ console.log(isArmstrong(123));
   
 ---
  
-**16. Find max difference between 2 array elements**
+**15. Find max difference between 2 array elements**
  
 ```js
 let arr = [1, 2, 4, 5, 6, 7, 10];
@@ -384,7 +368,7 @@ console.log(findMaxDiff(arr));
   
 ---
  
-**17. Find min difference between 2 array elements**
+**16. Find min difference between 2 array elements**
  
 ```js
 let arr = [1, -2, 4, -5, 6, -7, 10];
@@ -411,7 +395,7 @@ console.log(minDiffCorrected(arr));
   
 ---
  
-**18. Prime Number**
+**17. Prime Number**
  
 ```js
 function isPrime(num) {
@@ -433,7 +417,7 @@ console.log(isPrime(15));
   
 ---
  
-**19. Composite Numbers**
+**18. Composite Numbers**
  
 ```js
 function isComposite(num) {
@@ -456,7 +440,7 @@ console.log(isComposite(1));
   
 ---
  
-**20. Dividend, Divisor, Quotient & Remainder**
+**19. Dividend, Divisor, Quotient & Remainder**
  
 ```js
 let dividend = 17;
@@ -472,7 +456,7 @@ console.log("Remainder:", remainder);
   
 ---
  
-**21. Union & Intersection**
+**20. Union & Intersection**
  
 ```js
 let arrA = ["Apple", "Banana", "Mango"];

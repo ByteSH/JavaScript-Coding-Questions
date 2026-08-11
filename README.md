@@ -316,24 +316,24 @@ function isAnagram(str1, str2) {
     const format = (s) => s.toLowerCase().split('').sort().join('');
     return format(str1) === format(str2);
 }
- 
-console.log(isAnagram("Silent", "Listen"));
- 
-function isArmstrong(num) {
-    let temp = num;
-    let sum = 0;
-    const digits = num.toString().split('');
+
+function findArmstrong(num) {
+    const digits = String(num).split("").map(Number);
     const power = digits.length;
- 
-    for (let d of digits) {
-        sum += Math.pow(parseInt(d), power);
-    }
- 
+    let sum = digits.reduce((acc, digit) => acc + Math.pow(digit, power), 0);
     return sum === num;
 }
- 
-console.log(isArmstrong(153));
-console.log(isArmstrong(123));
+
+
+let text = "madam";
+console.log(isPalindrome(text));
+
+let word1 = "listen";
+let word2 = "silent";
+console.log(isAnagram(word1, word2));
+
+let number = 153;
+console.log(findArmstrong(number));
 ```
   
 ---

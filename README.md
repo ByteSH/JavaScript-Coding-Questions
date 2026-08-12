@@ -338,37 +338,7 @@ console.log(findArmstrong(number));
   
 ---
  
-**15. Find max difference between 2 array elements**
- 
-```js
-let arr = [1, 2, 4, 5, 6, 7, 10];
- 
-let maxVal = Math.max(...arr);
-let minVal = Math.min(...arr);
- 
-let maxDiff = maxVal - minVal;
- 
-console.log(maxDiff);
- 
-function findMaxDiff(arr) {
-    if (arr.length < 2) return 0;
- 
-    let minValue = arr[0];
-    let maxValue = arr[0];
- 
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] < minValue) minValue = arr[i];
-        if (arr[i] > maxValue) maxValue = arr[i];
-    }
-    return maxValue - minValue;
-}
- 
-console.log(findMaxDiff(arr));
-```
-  
----
- 
-**16. Find min difference between 2 array elements**
+**15. Find min difference between 2 array elements**
  
 ```js
 let arr = [1, -2, 4, -5, 6, -7, 10];
@@ -395,7 +365,7 @@ console.log(minDiffCorrected(arr));
   
 ---
  
-**17. Prime Number**
+**16. Prime Number**
  
 ```js
 function isPrime(num) {
@@ -417,7 +387,7 @@ console.log(isPrime(15));
   
 ---
  
-**18. Composite Numbers**
+**17. Composite Numbers**
  
 ```js
 function isComposite(num) {
@@ -440,7 +410,7 @@ console.log(isComposite(1));
   
 ---
  
-**19. Dividend, Divisor, Quotient & Remainder**
+**18. Dividend, Divisor, Quotient & Remainder**
  
 ```js
 let dividend = 17;
@@ -456,7 +426,7 @@ console.log("Remainder:", remainder);
   
 ---
  
-**20. Union & Intersection**
+**19. Union & Intersection**
  
 ```js
 let arrA = ["Apple", "Banana", "Mango"];
